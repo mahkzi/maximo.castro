@@ -5,27 +5,48 @@
 }
 /*aqui comienzan los estilos del header del index y todas las carpetas html*/
 header{
-    background-color:white
+    background-color: white;
+    border-bottom: 0.5px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.logo{
-    text-align: left;
-   margin-top: 2rem;
-   margin-left: 4rem;
+/*clase del ul*/
+.contenedor-nav{
+    display: flex;
+    list-style-type: none;
 }
-nav ul a li{
-    text-decoration: none;
-    text-align: center;
+.contenedor-nav li{
+    padding: 1rem;
+    margin: 1rem;
+}
+.contenedor-nav li a{
     color: black;
-    text-decoration-line: none;
-    font-size:large;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
+    font-weight:bold;
+    font-size: 1.3rem;
+    transition: 2s;
 }
-header a{
-    text-decoration: none;
-    color: black;
+.contenedor-nav li a:hover{
+    color: grey;
+    text-decoration:underline;
+    font-size: 1.8rem;
+
 }
+/*logo del header*/
+#logo{
+    display:block;
+    width: 15.5rem;
+    height: 10.5rem;
+    transition: 2s;
+}
+header #logo:hover{
+    width: 17rem;
+    height: 12rem;
+}
+
 /*aqui comienzan los estilos del main de index*/
 .main-color{
     background-color:whitesmoke
