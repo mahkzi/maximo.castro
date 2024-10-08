@@ -49,7 +49,7 @@ header #logo:hover{
 }
 
 /*aqui comienzan los estilos del main de index*/
-/*esta clase es compoartida por los titulos del index, alimento, cuidado y entretenimiento*/
+/*esta clase es compoartida por los h1 del index, alimento, cuidado y entretenimiento*/
 .titulo-principal{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
@@ -60,7 +60,7 @@ font-size: 2.4rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 /*esta clase es compartida por los h3 de index, entretenimiento, alimento y cuidado*/
 .subtitulo{
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: capitalize;
     text-align: start;
     margin: 0.5rem;
@@ -104,6 +104,32 @@ font-size: 2.4rem;
 .contenedor-item:hover{
 border: 3px solid blue;
     }
+    /*aqui comienzan los estilos de entretenimiento.html sin contar los compartidos con el index*/
+    main{
+        background-color: #f4f4f4;
+    }
+    .entretenimiento-padre{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row:15rem;
+        gap:1rem;
+        margin: 0.5rem;
+        justify-content: center;
+        justify-items: center;
+    }
+    .entretenimiento-hijo{
+        border: 1px solid grey;
+        border-radius: 3px;
+        transition: 1.2s;
+    }
+    .img-entretenimiento{
+        width: 20vh;
+        height:15vw;
+    }
+    .img-entretenimiento:hover{
+border:3px solid blue;
+    }
+    /*la idea era poder meterla al carrito, pero un carrito se hace con js habíamos quedado en una clase, que otra cosa podía quedar bien?*/
 /*aqui comienza los estilos del main de contacto html*/
 #titulo-contacto{
     text-align: center;
@@ -224,5 +250,5 @@ footer{
             align-items: center;justify-content: flex-start;        }
 }
 @media (max-width:792px){
-
+/*todavía no se si es que esta hay que hacerla full responsive y tengo algunas dudas sobre el tema*/
 }
