@@ -9,7 +9,7 @@ header{
     border-bottom: 0.5px solid grey;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 /*clase del ul*/
 .contenedor-nav{
@@ -28,6 +28,7 @@ header{
     font-weight:bold;
     font-size: 1.3rem;
     transition: 2s;
+    margin: 1rem;
 }
 .contenedor-nav li a:hover{
     color: grey;
