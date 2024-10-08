@@ -20,57 +20,113 @@
 </nav>
     </header>
     <!--aqui comienza el main-->
-    <!-- <main class="main-color">
-        <h1 class="titulo-principal">Nuestros productos</h1>
-        <br>
-        <h3 class="subtitulo-entretenimiento">entretenimiento</h3>
-        <section>
-            <div>
-                <a href="./html/entretenimiento.html"><img src="./assets/16051.webp" alt="rascador a" width="5%"></a>
-            </div>
-            <div>
-                <a href="./html/entretenimiento.html"><img src="./assets/rascador-para-gatos-con-casita_1_g.jpeg" alt="rascador b" width="5%"></a>
-            </div>
-            <div>
-                <a href="./html/entretenimiento.html"><img src="./assets/d.webp" alt="racador c" width="5%"></a>
-            </div>
-            <div>
-                <a href="./html/entretenimiento.html"><img src="./assets/c.webp" alt="rascador d" width="5%"></a>
-            </div>
-        </section>
-        <!-aqui comienza la segunda seccion-->
-        <!-- <h3  class="subtitulo-entretenimiento">alimentos</h3>
-        <section>
-<div>
-<a href="./html/alimento.html"><img src="./assets/humedo a.png" alt="foto alimento" width="5%"></a>
-</div>
-<div>
-    <a href="./html/alimento.html"><img src="./assets/humedo b.png" alt="foto alimento" width="5%"></a>
-</div>
-<div>
-    <a href="./html/alimento.html"><img src="./assets/seco a.webp" alt="foto del alimento"  width="5%"></a>
-</div>
-<div>
-    <a href="./html/alimento.html"><img src="./assets/seco b.jpg" alt="foto alimento"  width="5%"></a>
-</div>
-        </section> -->
-        <!--aqui comienza la ultima seccion del main-->
-        <!-- <h3 class="subtitulo-entretenimiento">cuidados</h3>
-        <section>
-<div>
-<a href="./html/cuidado.html"><img src="./assets/pipeta a.jpg" alt="foto pipeta" width="5%"></a>
-</div>
-<div>
-    <a href="./html/cuidado.html"><img src="./assets/pipeta b.jpg" alt="foto pipeta" width="5%"></a>
-</div>
-<div>
-    <a href="./html/cuidado.html"><img src="./assets/pipeta c.png" alt="foto pipeta" width="5%"></a>
-</div>
-<div>
-    <a href="./html/cuidado.html"><img src="./assets/pipeta d.jpg" alt="foto pipeta" width="5%"></a>
-</div>
-        </section> -->
-        <!--la idea es que esten una al lado de la otra pero como todabia no podemos itilizar el display flex ni aca ni en el header las hice chiquitas para que se pueda apreciar el resto de las cosas, pero irian con un 30/40 % las img -->
+  <main>
+    <h1 class="titulo-principal">Productos <span>gatunos</span></h1>
+    <h3 class="subtitulo">entretenimiento</h3>
+    <div class="contenedor-grid">
+        <div class="contenedor-item">
+            <a href="./html/entretenimiento.html">
+            <img src="./assets/16051.webp" alt="rasacador-a" class="imagen-grid">
+            </a>
+            <p><span>1030$</span>
+                <br>
+            999$</p>
+        </div>
+        <div class="contenedor-item">
+            <a href="./html/entretenimiento.html">
+                <img src="./assets/rascador-para-gatos-con-casita_1_g.jpeg" alt="rascador-marron" class="imagen-grid">
+                </a>
+                <p><span>1250$</span>
+                    <br>
+                1000$</p>
+        </div>
+        <div class="contenedor-item">
+            <a href="/html/entretenimiento.html">
+                <img src="./assets/juguete b.jpg" alt="pescado-palo" class="imagen-grid">
+                </a>
+                <p><span>1300$</span>
+                    <br>
+                999$</p>
+        </div>
+        <div class="contenedor-item">
+            <a href="/html/entretenimiento.html">
+                <img src="./assets/juguete d.webp" alt="pelotitas-de-color" class="imagen-grid">
+                </a>
+                <p><span>2100$</span>
+                    <br>
+                1500$</p>
+        </div>
+    </div>
+    <h3 class="subtitulo">alimentos</h3>
+    <div class="contenedor-grid">
+        <div class="contenedor-item">
+            <a href="./html/alimento.html">
+                <img src="./assets/humedo a.png" alt="optium-rosa" class="imagen-grid">
+                </a>
+                <p><span>1130$</span>
+                    <br>
+                899$</p>
+        </div>
+        <div class="contenedor-item">
+            <a href="./html/alimento.html">
+                <img src="./assets/humedo b.png" alt="obtium-lima" class="imagen-grid">
+                </a>
+                <p><span>930$</span>
+                    <br>
+                799$</p>
+        </div>
+        <div class="contenedor-item">
+            <a href="./html/alimento.html">
+                <img src="./assets/seco a.webp" alt="marca-dia" class="imagen-grid">
+                </a>
+                <p><span>2000$</span>
+                    <br>
+                1499$</p>
+        </div>
+        <div class="contenedor-item">
+            <a href="./html/alimento.html">
+                <img src="./assets/seco b.jpg" alt="purina-violeta" class="imagen-grid">
+                </a>
+                <p><span>1600$</span>
+                    <br>
+                1299$</p>
+        </div>
+    </div>
+    <h3 class="subtitulo">cuidado</h3>
+    <div class="contenedor-grid">
+    <div class="contenedor-item">
+        <a href="./html/cuidado.html">
+            <img src="./assets/collar a.jpg" alt="collar-violeta" class="imagen-grid">
+            </a>
+            <p><span>1030$</span>
+                <br>
+            999$</p>
+    </div>
+    <div class="contenedor-item">
+        <a href="./html/cuidado.html">
+            <img src="./assets/collar b.jpg" alt="collar-rojo" class="imagen-grid">
+            </a>
+            <p><span>1235$</span>
+                <br>
+            1199$</p>
+    </div>
+    <div class="contenedor-item">
+        <a href="">
+            <img src="./assets/correa a.png" alt="correa-rosa" class="imagen-grid">
+            </a>
+            <p><span>1800$</span>
+                <br>
+           1599$</p>
+    </div>
+    <div class="contenedor-item">
+        <a href="./html/cuidado.html">
+            <img src="./assets/correa b.jpg" alt="correa-negra" class="imagen-grid">
+            </a>
+            <p><span>3000$</span>
+                <br>
+            2799$</p>
+    </div>
+    </div>
     </main>
     <!--aqui comienza el footer-->
     <!-- <footer>
