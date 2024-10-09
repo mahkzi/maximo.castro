@@ -270,77 +270,67 @@ font-family: 'Times New Roman', Times, serif;
         }
         /*Las imagenes son de prueba ya que la mayoría no cumplen con la idea que quiero poner, pero son para remarcar la idea*/
 /*aqui comienza los estilos del main de contacto html*/
-#titulo-contacto{
-    text-align: center;
-    font-size: 3rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style:italic;
-}
-strong{
-color: darkgrey;
-}
-/*lorep impsum*/
-main section p{
-    text-align: center;
-    font-size: 2rem;
-}
-/*segundo section del main de contacto*/
-#subtitulo-contacto{
-    text-align: center;
-    font-size: 2.5rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-form{
-    text-align: center;
-}
-form label{
-    font-size: 2rem;
-}
-#boton-enviar{
-    font-size: 1.25rem;
-}
-/*aca tenemos los estilos de la hoja de cuidado*/
-/*aqui comienza las modiicaciones del footer */
-footer{
-    background-color:grey
-}
-.titulo-footer{
-    text-align: center;
-    text-transform: capitalize;
-    color: white;
-    font-size: 2rem;
-}
-.img-footer{
-    margin-left: 4rem;
-}
 .contenedor-contacto{
-    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
 }
-.link-contacto{
-    color: white;
-    font-size: 1.25rem;
-    text-decoration: none;
-}
-.titulito-footer{
-    color: white;
-    font-size: 1.25rem;
-    text-align: right;
-    margin-right: 5rem;
-}
-.texto-nosotros{
-    color: white;
-    text-align: right;
-    font-size: 1rem;
-}
-#unico-titulo{
-    color: white;
-    margin-left: 3rem;
+.titulo-contacto{
+    padding: 1rem;
+    text-transform: capitalize;
     font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#img-contacto{
-    text-align: right;
-    margin-right: 13rem;
+.contenedor-contacto p{
+   padding: 0.5rem;
 }
+.subtitulo-contacto{
+display: flex;
+justify-content: center;
+justify-items: center;
+padding: 1rem;
+margin: 0.1rem;
+}
+.subtitulo-contacto h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.caja-usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+.diseño-caja{
+    display: flex;
+    flex-direction: column;
+}
+.diseño-caja label{
+    margin-bottom: 1rem;
+}
+.label-usuario{
+    font-size: 1.3rem;
+}
+.label-consulta{
+    font-size: 1.3rem;
+}
+.diseño-caja input{
+    margin-bottom: 1rem;
+}
+.boton{
+    padding: 0.3rem;
+margin: 1rem;
+border-radius: 3px;
+}
+.boton:hover{
+    background-color: yellow;
+    border-color: white;
+}
+/*aqui comienza las modiicaciones del footer */
 @media (max-width:928px){
     .imagen-grid{
         width:18vh;
@@ -364,7 +354,4 @@ footer{
             border-bottom: 0.5px solid grey;
             display: flex;
             align-items: center;justify-content: flex-start;        }
-}
-@media (max-width:792px){
-/*todavía no se si es que esta hay que hacerla full responsive y tengo algunas dudas sobre el tema*/
 }
