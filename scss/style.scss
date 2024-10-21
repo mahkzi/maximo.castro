@@ -1,0 +1,14 @@
+// reset
+@import "./base/reset.scss";
+//layout
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/Entretenimiento-main";
+@import "./layout/alimento-main";
+@import "./layout/cuidado-main.scss";
+@import "./layout/contacto-main";
+@import "./layout/footer";
+//media
+@import "./media-queries/media-1000px";
+@import "./media-queries/media-650px";
+@import "./media-queries/media-974px";

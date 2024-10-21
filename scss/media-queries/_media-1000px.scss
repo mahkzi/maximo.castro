@@ -1,0 +1,28 @@
+@media screen and (max-width:1000px) {
+    .index-header{
+        border-bottom: 0.5px solid grey;
+        display: flex;
+        a{
+            img{
+                display: none;
+            }
+        }
+        nav{
+            align-items: center;
+            ul{
+                display: flex;
+                .li-movil{
+                    display: inline;
+                }
+                li{
+                    font-size: 0.3rem;
+                    margin: 10px;
+                    padding: 3px;
+                }
+            }
+        }
+        }
+}
+img{
+    display:none;
+}
