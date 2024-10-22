@@ -18,13 +18,6 @@ footer {
   background-color: white;
 }
 
-.titulo-alimentos {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 1.5rem;
-  font-size: 2rem;
-}
-
 .subtitulo {
   font-size: 2rem;
   text-transform: capitalize;
@@ -67,29 +60,6 @@ footer {
   justify-items: center;
 }
 .alimento-padre .alimento.hijo .img-hijo {
-  width: 7rem;
-  height: 10rem;
-}
-
-.subtitulo {
-  font-size: 2rem;
-  text-transform: capitalize;
-  text-align: start;
-  margin: 0.5rem;
-  padding: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.alimento-padre {
-  display: grid;
-  grid-template-columns: repeat(8, 0.5fr);
-  grid-template-rows: 10rem;
-  gap: 0.5rem;
-  margin-left: 0.4rem;
-  margin-right: 0.4rem;
-  justify-items: center;
-}
-.alimento-padre .alimento-hijo .img-hijo {
   width: 7rem;
   height: 10rem;
 }
@@ -349,6 +319,11 @@ main .titulo-principal span {
 .caja-usuario .diseño-caja .boton:hover {
   background-color: yellow;
   border-color: white;
+}
+
+img {
+  height: 100px;
+  width: 75px;
 }
 
 .titulo-footer {
@@ -620,27 +595,45 @@ main .titulo-principal span {
   width: 16rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 465px) {
   .index-header {
     border-bottom: 0.5px solid grey;
     display: flex;
-  }
-  .index-header a img {
-    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
   }
   .index-header nav {
     align-items: center;
   }
   .index-header nav ul {
     display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
   }
   .index-header nav ul .li-movil {
-    display: inline;
+    display: flex;
   }
   .index-header nav ul li {
-    font-size: 0.3rem;
-    margin: 10px;
-    padding: 3px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  .index-header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 2s;
+  }
+  .index-header nav ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+  .index-header a img {
+    display: none;
   }
 }
 @media screen and (max-width: 650px) {
@@ -659,7 +652,7 @@ main .titulo-principal span {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .index-header {
     border-bottom: 0.5px solid grey;
     display: flex;
@@ -684,7 +677,7 @@ main .titulo-principal span {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: 1rem;
     transition: 2s;
     margin: 5px;
   }
@@ -696,6 +689,47 @@ main .titulo-principal span {
   .index-header a img {
     display: none;
   }
+}
+@media screen and (max-width: 768px) {
+  .titulo-footer {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .titulo-footer h4 {
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .contenedor-grande {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor-grande .contenedor-links {
+    font-size: 1rem;
+    border: none;
+  }
+  .contenedor-grande .contenedor-links a {
+    margin: 15px;
+  }
+  .contenedor-grande .contenedor-links a .instagram-logo {
+    height: 50px;
+  }
+  .contenedor-grande .contenedor-links p {
+    text-transform: uppercase;
+  }
+  .contenedor-grande .contenedor-links a {
+    transition: 1s;
+  }
+  .contenedor-grande .contenedor-links a:hover {
+    color: grey;
+  }
+  .contenedor-grande .contenedor-info {
+    display: none;
+  }
+}
+@media screen and (max-width: 755px) {
   .titulo-principal {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -715,7 +749,7 @@ main .titulo-principal span {
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(1, 100%);
-    gap: 5px;
+    margin: 20px;
   }
   #grid-main-a .contenedor-item {
     display: none;
@@ -742,7 +776,7 @@ main .titulo-principal span {
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(1, 100%);
-    gap: 5px;
+    margin: 20px;
   }
   #grid-main-b .contenedor-item {
     display: none;
@@ -769,7 +803,7 @@ main .titulo-principal span {
     display: grid;
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(1, 100%);
-    gap: 5px;
+    margin: 20px;
   }
   #grid-main-c .contenedor-item {
     display: none;
@@ -786,44 +820,8 @@ main .titulo-principal span {
   #grid-main-c #vista-mobile .imagen-grid {
     height: max-content;
   }
-  .titulo-footer {
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  .titulo-footer h4 {
-    font-size: 0.9rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .contenedor-grande {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .contenedor-grande .contenedor-links {
-    font-size: 1rem;
-  }
-  .contenedor-grande .contenedor-links a {
-    margin: 15px;
-  }
-  .contenedor-grande .contenedor-links a .instagram-logo {
-    height: 50px;
-  }
-  .contenedor-grande .contenedor-links p {
-    text-transform: uppercase;
-  }
-  .contenedor-grande .contenedor-links a {
-    transition: 1s;
-  }
-  .contenedor-grande .contenedor-links a:hover {
-    color: grey;
-  }
-  .contenedor-grande .contenedor-info {
-    display: none;
-  }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .titulo-principal {
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -899,7 +897,7 @@ main .titulo-principal span {
     height: max-content;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .index-header {
     border-bottom: 0.5px solid grey;
     display: flex;
@@ -1040,6 +1038,38 @@ main .titulo-principal span {
   }
   .contenedor-grande .contenedor-info {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .titulo-alimentos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+  .titulo-alimentos span {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  .subtitulo {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: start;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .alimento-padre {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2px;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    justify-items: center;
+  }
+  .alimento-padre .alimento.hijo .img-hijo {
+    width: 6rem;
+    height: 10rem;
   }
 }
 @media screen and (max-width: 320px) {

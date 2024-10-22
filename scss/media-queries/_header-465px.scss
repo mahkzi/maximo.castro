@@ -1,0 +1,43 @@
+@media screen and (max-width:465px){
+    .index-header{
+        border-bottom: 0.5px solid grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        nav{
+            align-items: center;
+            ul{
+                display: flex;
+                list-style-type: none;
+                justify-content: flex-start;
+                .li-movil{
+                    display:flex;
+                }
+                li{
+                    margin-bottom: 10px;
+                    margin-top: 5px;
+                    a{
+                        color:black;
+                        text-decoration: none;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-transform: capitalize;
+                        font-weight:bold;
+                        font-size: 13px;
+                        transition: 2s;
+                        &:hover{
+                            color: grey;
+                            text-decoration:underline;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+           }
+           a{
+            img{
+                 display:none;
+                }
+            }
+           }
+}
