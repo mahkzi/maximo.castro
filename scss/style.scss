@@ -1,6 +1,6 @@
-// reset
+/*reset*/
 @import"./base/reset.scss";
-//layout
+/*layout*/
 @import"./layout/alimento-main";
 
 @import"./layout/header";
@@ -15,10 +15,10 @@
 
 @import"./layout/Entretenimiento-main";
 
-@import"./layout/cuidado-main.scss";
+@import"./layout/cuidado-main";
 
 @import"./media-queries/index-main-tablet";
-//media
+/*media*/
 @import"./media-queries/header-465px";
 @import"./media-queries/header-650px";
 @import"./media-queries/header-768px";
@@ -28,4 +28,6 @@
 @import"./media-queries/main-alimento-425px";
 @import"./media-queries/alimento-main-768px";
 @import"./media-queries/contacto-main-mobile";
-@import"./media-queries/cuidado-main-mobile"
+@import"./media-queries/cuidado-main-375px";
+@import"./media-queries/cuidado-main-425px";
+@import "./media-queries/main-cuidado-768px";

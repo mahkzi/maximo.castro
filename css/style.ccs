@@ -1149,112 +1149,14 @@ img {
 }
 @media screen and (max-width: 375px) {
   .titulo-principal {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-  }
-  .titulo-principal span {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  }
-  .grid-area {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 12rem);
-    grid-template-areas: "item-1 item-1 item-2" "item-3 item-3 item-2" "item-3 item-3 item-2";
-    gap: 0.4rem;
-  }
-  .grid-area .area-item-1 {
-    grid-area: item-1;
-    display: flex;
-    flex-direction: column;
-  }
-  .grid-area .area-item-1 h3 {
-    margin: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .grid-area .area-item-1 h3 span {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  }
-  .grid-area .area-item-1 .texto-cuidado {
-    display: none;
-  }
-  .grid-area .area-item-1 div {
-    display: flex;
-    justify-content: flex-start;
-    padding: 1px;
-    margin: 3px;
-  }
-  .grid-area .area-item-1 div .info-cuidado {
-    text-transform: uppercase;
-    font-size: 0.7rem;
-    margin-top: 100px;
-  }
-  .grid-area .area-item-1 div .contacto-cuidado {
     color: red;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 0.7rem;
-    transition: 1s;
-    margin-top: 100px;
-  }
-  .grid-area .area-item-1 div .contacto-cuidado:hover {
-    color: grey;
-    text-decoration: underline;
-  }
-  .grid-area .area-item-2 {
-    grid-area: item-2;
-    border-left: 2px solid grey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .grid-area .area-item-2 div .foto-cuidado {
-    height: 170px;
-    width: 70px;
-  }
-  .grid-area .area-item-2 p {
-    display: none;
-  }
-  .grid-area .area-item-3 {
-    grid-area: item-3;
-    margin-top: 3rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .grid-area .area-item-3 .saludable-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .grid-area .area-item-3 .saludable-1 .sub-saludable-1 {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .grid-area .area-item-3 .saludable-1 p {
-    padding: 5px;
-    font-size: 0.5rem;
-  }
-  .grid-area .area-item-3 .saludable-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .grid-area .area-item-3 .saludable-2 .sub-saludable-2 {
-    padding: 5px;
-    font-size: 0.8rem;
-  }
-  .grid-area .area-item-3 .saludable-3 {
-    display: none;
   }
 }
 @media screen and (max-width: 425px) {
   .titulo-principal {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .titulo-principal span {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -1461,4 +1363,4 @@ img {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.ccs.map */
