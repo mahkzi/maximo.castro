@@ -1,0 +1,63 @@
+.contenedor-contacto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    .titulo-contacto{
+        padding: 1rem;
+        text-transform: capitalize;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        padding: 0.5rem;
+    }
+    p{
+        padding: 0.5rem;
+    }
+}
+.subtitulo-contacto{
+    display: flex;
+justify-content: center;
+justify-items: center;
+padding: 1rem;
+margin: 0.1rem;
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+    }
+}
+.caja-usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    .diseño-caja{
+        display: flex;
+        flex-direction: column;
+        label{
+            margin-bottom: 1rem;
+        }
+        input{
+            margin-bottom: 1rem;
+        }
+        .label-usuario{
+            font-size: 1.3rem;
+        }
+        .label-consulta{
+            font-size: 1.3rem;
+        }
+        .boton{
+            padding: 0.3rem;
+            margin: 1rem;
+            border-radius: 3px;
+            &:hover{
+                background-color: yellow;
+                border-color: white;
+            }
+            }
+        }
+    }
