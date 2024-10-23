@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 header{
-    background-color: white;
+    background-color: $color-back;
 }
 main{
     background-color: whitesmoke;
 }
 footer{
     border-top: 0.5px solid grey;
-      background-color: white;
+      background-color: $color-back
 }

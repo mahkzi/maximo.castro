@@ -1,5 +1,7 @@
 /*reset*/
 @import"./base/reset.scss";
+//utilities
+@import"./utilities/variables.scss";
 /*layout*/
 @import"./layout/alimento-main";
 
@@ -28,6 +30,5 @@
 @import"./media-queries/main-alimento-425px";
 @import"./media-queries/alimento-main-768px";
 @import"./media-queries/contacto-main-mobile";
-@import"./media-queries/cuidado-main-375px";
 @import"./media-queries/cuidado-main-425px";
 @import "./media-queries/main-cuidado-768px";
