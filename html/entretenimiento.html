@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entretenimiento</title>
+    <!--css-->
     <link rel="stylesheet" href="../css/style.css">
+    <!--aos-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
    <!--aqui comienza el header-->
@@ -52,7 +55,7 @@
         </div>
     </div>
     <h3 class="subtitulo">correas y collares</h3>
-    <div class="entretenimiento-padre" id="padre-c">
+    <div class="entretenimiento-padre" data-aos="zoom-in-up" id="padre-c">
         <div class="entretenimiento-hijo" id="entretenimiento-mobile">
             <img src="../assets/collar a.jpg" alt="collar-a" class="img-entretenimiento">
         </div>
@@ -84,5 +87,9 @@
                  </div>
              </div>
          </footer>
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script>
+             AOS.init();
+           </script>
 </body>
 </html>

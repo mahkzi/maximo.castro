@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CatLand</title>
+    <!--css-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!--aqui comienza el header-->
@@ -59,7 +62,7 @@
         </div>
     </div>
     <h3 class="subtitulo">alimentos</h3>
-    <div class="contenedor-grid" id="grid-main-b">
+    <div class="contenedor-grid"id="grid-main-b">
         <div class="contenedor-item" >
             <a href="./html/alimento.html">
                 <img src="./assets/humedo a.png" alt="optium-rosa" class="imagen-grid">
@@ -94,7 +97,7 @@
         </div>
     </div>
     <h3 class="subtitulo">cuidado</h3>
-    <div class="contenedor-grid" id="grid-main-c">
+    <div class="contenedor-grid" data-aos="zoom-in-up" id="grid-main-c">
     <div class="contenedor-item">
         <a href="./html/cuidado.html">
             <img src="./assets/pipeta a.jpg" alt="pipeta-a" class="imagen-grid">
@@ -145,5 +148,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
